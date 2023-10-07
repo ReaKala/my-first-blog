@@ -1,32 +1,5 @@
-# Python
-*.pyc
-*~
-__pycache__
+from django.contrib import admin
+from .models import Post
 
-# Env
-.env
-myvenv/
-venv/
+admin.site.register(Post)
 
-# Database
-db.sqlite3
-
-# Static folder at project root
-/static/
-
-# macOS
-._*
-.DS_Store
-.fseventsd
-.Spotlight-V100
-
-# Windows
-Thumbs.db*
-ehthumbs*.db
-[Dd]esktop.ini
-$RECYCLE.BIN/
-
-# Visual Studio
-.vscode/
-.history/
-*.code-workspace
